@@ -1,0 +1,1 @@
+A niche Minecraft mod that makes it so that item entities are picked up by a random player in the area, rather than the vanilla pickup behaviour - the first player who joined the server picking up the item.
