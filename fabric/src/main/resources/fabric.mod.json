@@ -9,7 +9,7 @@
   ],
   "license": "${license}",
   "icon": "${mod_id}.png",
-  "environment": "server",
+  "environment": "*",
   "entrypoints": {
     "main": [
       "net.le0nia.inconsistentize.Inconsistentize"
