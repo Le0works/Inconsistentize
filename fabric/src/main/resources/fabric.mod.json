@@ -9,7 +9,7 @@
   ],
   "license": "${license}",
   "icon": "${mod_id}.png",
-  "environment": "server",
+  "environment": "*",
   "entrypoints": {
     "main": [
       "net.le0nia.inconsistentize.Inconsistentize"
@@ -20,9 +20,9 @@
     "${mod_id}.fabric.mixins.json"
   ],
   "depends": {
-    "fabricloader": ">=0.15.0",
-    "minecraft": "1.21.10",
+    "fabricloader": ">=${fabric_loader_version}",
     "fabric-api": "*",
+    "minecraft": "~${minecraft_version}",
     "java": ">=${java_version}"
   },
   "suggests": {
